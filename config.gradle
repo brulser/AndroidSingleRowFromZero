@@ -1,0 +1,8 @@
+// Build
+ext.set('targetSdk', 25)
+ext.set('compileSdk', 25)
+ext.set('minSdk', 15)
+ext.set('buildTools', '25.0.2')
+ext.set('versionCode', 5)
+ext.set('versionName', '1.4')
+ext.set('compactSupportVersion', '25.3.1')
