@@ -12,11 +12,21 @@
         android:layout_height="wrap_content"
         android:onClick="startService"
         android:text="start Service" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopService"
+        android:text="stop Service" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="bindService"
         android:text="bind Service" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopbindService"
+        android:text="Stop bind Service" />
 
 </LinearLayout>

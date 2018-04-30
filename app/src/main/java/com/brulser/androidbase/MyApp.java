@@ -23,10 +23,10 @@ public class MyApp extends Application {
     @Override
     public void onCreate() {
         FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
-                .showThreadInfo(true)  // (Optional) Whether to show thread info or not. Default true
-                .methodCount(3)         // (Optional) How many method line to show. Default 2
+                .showThreadInfo(false)  // (Optional) Whether to show thread info or not. Default true
+                .methodCount(0)         // (Optional) How many method line to show. Default 2
                 .methodOffset(7)        // (Optional) Hides internal method calls up to offset. Default 5
-                .tag("My custom tag")   // (Optional) Global tag for every log. Default PRETTY_LOGGER
+                .tag("yaoshun")   // (Optional) Global tag for every log. Default PRETTY_LOGGER
                 .build();
 
         Logger.addLogAdapter(new AndroidLogAdapter(formatStrategy) {
